@@ -1,6 +1,5 @@
 'use client'
 
-
 //hooks
 import useScrollProgress from '@/hooks/useScrollProgress';
 import {motion} from 'framer-motion';
@@ -22,7 +21,7 @@ const Template = ({children}) => {
         {/* {completion bar} */}
         <span style={{transform:`translateY(${completion - 100}%)`}} className='fixed z-50 bg-primary w-1 right-0 top-0 bottom-0 transition-all duration-700'></span>
 
-        <div className='h-[4000px]'></div>
+        {/* <div className='h-[4000px]'></div> */}
     </>);
 }
 

@@ -7,7 +7,7 @@ import {User, MailIcon, ArrowRightIcon, MessageSquare, Mail} from "lucide-react"
 
 
 const Form = () => {
-  return (
+  return ( 
     <form className="flex flex-col gap-y-4">
         {/* name */}
         <div className="relative flex items-center">

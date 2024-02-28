@@ -3,7 +3,7 @@ import {Button} from "./ui/button";
 
 const Cta = () => {
   return (
-    <section id="cta" className="py-2 bg-tertiary dark:bg-secondary/40">
+    <section id="cta" className="py-8 bg-tertiary dark:bg-secondary/40">
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <h2 className="h2 max-w-xl text-center mb-8">

@@ -31,7 +31,7 @@ const servicesData = [
 const Services = () => {
   return (
     <section>
-      <div className="container mx-auto">
+      <div className="container mx-auto min-h-[60vh] my-[5rem]">
         <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">My Services</h2>
         <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
             {servicesData.map((item,index)=>{
